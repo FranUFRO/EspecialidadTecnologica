@@ -1,0 +1,80 @@
+header {
+  background-color: #0d6efd;
+  position: fixed;
+  width: 100%;
+  padding: 20px;
+}
+
+header p {
+  color: white;
+  font-size: 30px;
+}
+
+footer {
+  background-color: #1a1e21;
+  padding: 30px;
+  text-align: center;
+}
+
+.infoExtra {
+  background-color: #212529;
+  padding: 20px;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.infoExtra h3 {
+  color: white;
+}
+
+.imagenes {
+  background-color: aquamarine;
+}
+
+.pieDePagina p {
+  color: white;
+}
+.infoExtra p {
+  color: white;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.container p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.card {
+  border: 1px solid gray;
+  margin: 5px;
+}
+.card-img-top {
+  width: 100%;
+}
+
+.card-body {
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.card-body h4{
+ font-weight: bold;
+}
+
+#button {
+  text-decoration: none;
+  color: white;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
