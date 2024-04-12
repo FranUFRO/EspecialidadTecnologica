@@ -54,7 +54,7 @@ function turno_hero(hero,enemy){
         console.log(`hero died!`);
     }
     actualizarBarraVida(hero.health,hero.maxhealth,document.getElementById("relleno_vida_heroe"));
-    actualizarBarraVida(hero.health,hero.maxhealth,document.getElementById("relleno_vida_enemy"));
+    actualizarBarraVida(enemy.health,enemy.maxhealth,document.getElementById("relleno_vida_enemy"));
 }
 
 function turno_enemy(hero,enemy){
@@ -69,7 +69,7 @@ function turno_enemy(hero,enemy){
         console.log(`enemy died!`);
     }
     actualizarBarraVida(hero.health,hero.maxhealth,document.getElementById("relleno_vida_heroe"));
-    actualizarBarraVida(hero.health,hero.maxhealth,document.getElementById("relleno_vida_enemy"));
+    actualizarBarraVida(enemy.health,enemy.maxhealth,document.getElementById("relleno_vida_enemy"));
 }
 //Creación de personajes
 const hero = new Character("Heroe", vida_random(), 110);
