@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editing</title>
+    <style>
+        .health-bar-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .health-bar {
+            width: 200px;
+            height: 20px;
+            border: 1px solid black;
+            background-color: #ddd;
+            margin-right: 10px;
+        }
+
+        .health {
+            height: 100%;
+            background-color: green;
+        }
+
+        .barra-vida {
+            width: 200px;
+            height: 30px;
+            border: 1px solid #000;
+            position: relative;
+        }
+
+        .barra-vida .relleno {
+            height: 100%;
+            background-color: red;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Fight!</h2>
+
+    <div>
+        <div class="row">
+            <img src="images/fotoHeroe.png" alt="">
+            <p id="vida_heroe">HP: 100/100</p>
+        </div>
+        <div class="barra-vida" id="barraVida">
+            <div class="relleno" id="relleno_vida_hero" style="width: 100%;"></div>
+        </div>
+    </div>
+    <div>
+        <div>
+            <img src="images/fotoEnemy.jpg" alt="">
+            <p id="vida_enemigo">HP:500/500</p>
+        </div>
+        <div class="barra-vida" id="barraVida">
+            <div class="relleno" id="rellenoVida"></div>
+        </div>
+    </div>
+
+    <script src="./js/solucion_ejercicio_2.js"></script>
+
+</body>
+
+</html>
